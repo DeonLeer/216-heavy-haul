@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>Welcome to 216 Heavy Haul</h1>
         <h2>We do the Tough Jobs</h2>
         <div className={styles.photo}>
-          <Image src="/crane2.jpg" width={1920} height={712} alt='crane'/>
+          <Image src="/crane2.jpg" width={1920} height={712} alt='crane' placeholder='blur'/>
         </div>
 
         <h2>Remote Access Specialists - We Will Get There!</h2>

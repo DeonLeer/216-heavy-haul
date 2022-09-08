@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
         >
           Powered by{' '}
           <span className='logo'>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} placeholder='blur' />
           </span>
         </a>
       </footer>

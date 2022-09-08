@@ -47,7 +47,7 @@ function DestopNav(props) {
         <div
             className={isShrunk ? styles.headerWrapperActive : styles.headerWrapperInactive}
         >
-            <Image src="/216Logo.png" width={100} height={100} alt="216 Logo"/>
+            <Image src="/216Logo.png" width={100} height={100} alt="216 Logo" placeholder='blur'/>
             {options.map((option) => (
 
                 <Link href={option.href} key={option}><a style={{color: (isShrunk ? '#191b4b' : 'white'), width: '15%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>{option.name}</a></Link>
