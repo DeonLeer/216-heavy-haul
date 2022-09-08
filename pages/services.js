@@ -12,8 +12,8 @@ export default function Services(props) {
             <div style={{height: '130px', width: '100%', backgroundColor: '#191b4b', position: 'absolute', top: 0, left: 0}}/>
             <h1>Services</h1>
             <ul style={{textAlign: 'left'}}>
-                {services.map(service => (
-                    <li>{service}</li>
+                {services.map(service, index => (
+                    <li key={index}>{service}</li>
                 ))}
             </ul>
         </div>
