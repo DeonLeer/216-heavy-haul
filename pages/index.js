@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import crane2 from '../public/crane2.jpg'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>Welcome to 216 Heavy Haul</h1>
         <h2>We do the Tough Jobs</h2>
         <div className={styles.photo}>
-          <Image src="/crane2.jpg" width={1920} height={712} alt='crane' placeholder='blur'/>
+          <Image src={crane2} width={1920} height={712} alt='crane' placeholder='blur'/>
         </div>
 
         <h2>Remote Access Specialists - We Will Get There!</h2>

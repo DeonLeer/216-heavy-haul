@@ -1,12 +1,13 @@
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
+import crane3 from '../public/crane3.jpg'
 
 export default function About(props) {
     
     return (
         <div className={styles.aboutMain} style={{textAlign: 'center', height: '100vh'}}>
             <div style={{position: 'absolute', top: 0, left: 0, zIndex: -10}}>
-                <Image src='/crane3.jpg' height={711} width={1920} alt='crane' placeholder='blur'/>
+                <Image src={crane3} height={711} width={1920} alt='crane' placeholder='blur'/>
             </div>
             <h1 style={{color:'white'}}>About Us</h1>
             <h2 className={styles.about}>
