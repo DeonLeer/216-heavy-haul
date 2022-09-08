@@ -1,12 +1,12 @@
 import '../styles/globals.css'
-import NavBar from '../components/NavBar'
+import Navbar from '../components/Navbar'
 import Image from 'next/image'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <header>
-        <NavBar />
+        <Navbar />
       </header>
       <div style={{display: 'flex', alignItems: 'stretch', justifyContent: 'center'}}>
         <Component {...pageProps} />
